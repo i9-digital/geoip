@@ -17,7 +17,7 @@ ENV GEOIP_BASE_URL      https://download.db-ip.com/free
 ENV GEOIP_CNTR_DB       dbip-country-lite-2021-02.mmdb
 ENV GEOIP_CITY_DB       dbip-city-lite-2021-02.mmdb
 ENV GEOIP_DB_DIR        /usr/share/GeoIP
-ENV GEOIPUPDATE_VER     "4.0.6"
+ENV GEOIPUPDATE_VER     "4.6.0"
 
 # download gzip database files to /tmp/
 ADD ${GEOIP_BASE_URL}/${GEOIP_CNTR_DB}.gz /tmp/
